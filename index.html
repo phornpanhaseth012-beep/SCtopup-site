@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0f0f1a">
+  <title>SC Gaming | Game Top Up</title>
+  <meta name="description" content="SC Gaming top-up storefront concept for Mobile Legends: Bang Bang and Free Fire.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#" aria-label="SC Gaming home">
+      <span class="brand-mark">SC</span><span>SC <b>GAMING</b></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">☰</button>
+    <nav id="mainNav">
+      <a href="#games">Games</a>
+      <a href="#how">How it works</a>
+      <a href="#order">Order</a>
+      <a href="#support">Support</a>
+    </nav>
+    <a class="header-cta" href="#games">Top Up Now <span>↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <div class="eyebrow"><span class="live-dot"></span> YOUR GAMING, YOUR WAY</div>
+        <h1>LEVEL UP<br><span>YOUR GAME.</span></h1>
+        <p>Top up your favourite games with a clean, simple order experience from SC Gaming.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#games">Explore top ups <span>→</span></a>
+          <a class="btn btn-ghost" href="#how">How it works</a>
+        </div>
+        <div class="hero-stats">
+          <div><strong>2</strong><small>Popular games</small></div>
+          <div><strong>24/7</strong><small>Order form access</small></div>
+          <div><strong>SC</strong><small>Gaming community</small></div>
+        </div>
+      </div>
+      <div class="hero-art" aria-label="Decorative gaming artwork">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="hero-chip chip-top">SC <small>GAMING</small></div>
+        <div class="hero-console"><div class="console-screen"><span>SC</span><i>LEVEL UP</i></div><div class="console-base"></div></div>
+        <div class="hero-badge">TOP UP<br><b>ZONE</b></div>
+        <div class="spark spark-one">✦</div><div class="spark spark-two">✧</div>
+      </div>
+    </section>
+
+    <section class="section games-section" id="games">
+      <div class="section-heading">
+        <div><p class="kicker">CHOOSE YOUR GAME</p><h2>Ready to <span>top up?</span></h2></div>
+        <p class="muted">Select a game to see demo packages and begin an order.</p>
+      </div>
+      <div class="game-grid">
+        <article class="game-card ml-card">
+          <div class="game-art ml-art"><span class="game-symbol">ML</span><span class="art-label">MOBILE LEGENDS</span><div class="art-rings"></div></div>
+          <div class="game-info">
+            <div class="game-title"><div><h3>Mobile Legends: Bang Bang</h3><p>Diamonds • Fast order request</p></div><span class="tag">MOBA</span></div>
+            <div class="packages" data-game="mlbb">
+              <button class="package active" data-name="86 Diamonds" data-price="3.00"><b>86 Diamonds</b><span>$3.00</span></button>
+              <button class="package" data-name="172 Diamonds" data-price="5.80"><b>172 Diamonds</b><span>$5.80</span></button>
+              <button class="package" data-name="257 Diamonds" data-price="8.50"><b>257 Diamonds</b><span>$8.50</span></button>
+              <button class="package" data-name="Weekly Pass" data-price="2.20"><b>Weekly Pass</b><span>$2.20</span></button>
+            </div>
+            <button class="btn btn-primary full choose-game" data-game="mlbb">Choose MLBB package <span>→</span></button>
+          </div>
+        </article>
+        <article class="game-card ff-card">
+          <div class="game-art ff-art"><span class="game-symbol">FF</span><span class="art-label">FREE FIRE</span><div class="art-rings"></div></div>
+          <div class="game-info">
+            <div class="game-title"><div><h3>Free Fire</h3><p>Diamonds • Fast order request</p></div><span class="tag">BATTLE</span></div>
+            <div class="packages" data-game="freefire">
+              <button class="package active" data-name="100 Diamonds" data-price="1.00"><b>100 Diamonds</b><span>$1.00</span></button>
+              <button class="package" data-name="310 Diamonds" data-price="3.00"><b>310 Diamonds</b><span>$3.00</span></button>
+              <button class="package" data-name="520 Diamonds" data-price="5.00"><b>520 Diamonds</b><span>$5.00</span></button>
+              <button class="package" data-name="1060 Diamonds" data-price="10.00"><b>1060 Diamonds</b><span>$10.00</span></button>
+            </div>
+            <button class="btn btn-primary full choose-game" data-game="freefire">Choose Free Fire package <span>→</span></button>
+          </div>
+        </article>
+      </div>
+      <p class="disclaimer">Demo package names and prices are examples only. Confirm your real prices and delivery rules before publishing.</p>
+    </section>
+
+    <section class="how-section" id="how">
+      <div class="section-heading centered"><p class="kicker">SIMPLE PROCESS</p><h2>How it <span>works</span></h2><p class="muted">A clear flow helps customers submit the right details.</p></div>
+      <div class="steps">
+        <div class="step"><span class="step-number">01</span><div class="step-icon">◈</div><h3>Choose a game</h3><p>Select MLBB or Free Fire and choose a package.</p></div>
+        <div class="step"><span class="step-number">02</span><div class="step-icon">⌁</div><h3>Enter player ID</h3><p>Provide your game ID and server/region if needed.</p></div>
+        <div class="step"><span class="step-number">03</span><div class="step-icon">✓</div><h3>Send order request</h3><p>Review your details and contact SC Gaming to confirm.</p></div>
+      </div>
+    </section>
+
+    <section class="order-section" id="order">
+      <div class="order-intro"><p class="kicker">ORDER REQUEST</p><h2>Let's get you<br><span>back in game.</span></h2><p class="muted">This starter site creates a message you can send to your shop contact. It does not process payments automatically.</p>
+        <div class="secure-note"><span>✓</span><div><b>Keep your account safe</b><small>Never share your game password or one-time verification codes.</small></div></div>
+      </div>
+      <form class="order-form" id="orderForm">
+        <div class="form-top"><span class="form-icon">↗</span><div><h3>Place an order</h3><p>Fill in your player details below</p></div></div>
+        <label for="game">Game</label>
+        <select id="game" name="game" required><option value="Mobile Legends: Bang Bang">Mobile Legends: Bang Bang</option><option value="Free Fire">Free Fire</option></select>
+        <label for="package">Package</label>
+        <select id="package" name="package" required></select>
+        <div class="form-row">
+          <div><label for="playerId">Player ID</label><input id="playerId" name="playerId" placeholder="Enter game player ID" required></div>
+          <div><label for="server">Server / Region</label><input id="server" name="server" placeholder="e.g. 1234 (if needed)"></div>
+        </div>
+        <label for="contact">Your contact (Telegram / phone)</label>
+        <input id="contact" name="contact" placeholder="How can the shop contact you?" required>
+        <label for="payment">Payment method</label>
+        <select id="payment" name="payment"><option>KHQR (confirm with shop)</option><option>Other (confirm with shop)</option></select>
+        <div class="total-row"><span>Example total</span><strong id="total">$3.00</strong></div>
+        <button class="btn btn-primary full" type="submit">Create order message <span>→</span></button>
+        <p class="form-help">No payment is collected on this page. Verify the recipient and amount before paying.</p>
+        <div class="order-output" id="orderOutput" hidden><label for="orderMessage">Your order message</label><textarea id="orderMessage" rows="7" readonly></textarea><button class="btn btn-secondary full" id="copyOrder" type="button">Copy order message</button></div>
+      </form>
+    </section>
+
+    <section class="support-section" id="support">
+      <div><p class="kicker">NEED HELP?</p><h2>We're here to <span>help.</span></h2><p class="muted">Add your official shop contact details here before sharing this website with customers.</p></div>
+      <div class="support-card"><div class="support-icon">✉</div><div><b>SC Gaming Support</b><p>Replace this text with your Telegram link, Facebook page, or business email.</p></div><span class="support-arrow">↗</span></div>
+    </section>
+  </main>
+
+  <footer><a class="brand" href="#"><span class="brand-mark">SC</span><span>SC <b>GAMING</b></span></a><p>Fan-friendly game top-up storefront template. Not affiliated with Moonton or Garena.</p><span>© <span id="year"></span> SC Gaming</span></footer>
+  <script src="script.js"></script>
+</body>
+</html>
